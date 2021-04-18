@@ -2,6 +2,7 @@
 
 Please read this file till the end. 
 Team: Maple Squad (Jaskiran Kaur, Shubham Deshmukh, Sohini Sarkar)
+
 Name of the competition: Toxicity prediction 
 Using machine learning algorithms to make prediction about the chemical whether it is toxic or not.  
 
