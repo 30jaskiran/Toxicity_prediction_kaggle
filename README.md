@@ -42,9 +42,13 @@ Implementation:
 KAGGLE FINAL SUBMISSION-PY.py ## This is the code file to train and test the model. 
 Four URL variables are mentioned at the start of the code, in which the path of the CSV files is mentioned. The relative paths are already set for all files. The dataset file "feamat.csv", "test.csv", "train.csv" and “features_id_name_mappings.csv” are the default version of the datasets available on the Kaggle Competition page. All the files are included in the zip folder.
 url_train_datafile = 'train.csv'
+
 url_test_datafile = 'test.csv'
+
 url_feamat_datafile = 'feamat.csv'
+
 url_mappings_datafile = 'features_id_name_mappings.csv'
+
 train.csv ## This contains ID column and expected column for train set. 
 
 test.csv ## This contains ID column.  
@@ -54,9 +58,13 @@ feamat.csv ## This contains the 1075 columns regarded as features.
 newMergedDF ##newMergedDF is our new merged Dataset after data preparation part by handling missing data.
 
 X_train and X_test ## The data is divided into two datasets of the same size for feature selection.
+
 train_X, val_X, train_y, val_y ## The merged training dataset is split into 80:20 ratio with 80% training data and 20% testing data for the modeling.
+
 Y_prediction ## This contains the final prediction of the model.
+
 Maple_Squad-1.csv ## the final prediction result is exported to a csv file.
+
 A new path might need to be set in any other computer/desktop for a local file and code to run and execute. For help see https://www.computerhope.com/issues/ch000549.htm
 
 Technical Details 
